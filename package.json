@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "run": "node ."
+    "run": "node .",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/IObregon-plain/formationWorkFlow/issues"
   },
-  "homepage": "https://github.com/IObregon-plain/formationWorkFlow#readme"
+  "homepage": "https://github.com/IObregon-plain/formationWorkFlow#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
 }
