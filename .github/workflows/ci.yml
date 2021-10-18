@@ -36,3 +36,11 @@ jobs:
       with:
         who-to-greet: ${{secrets.MYNAME}}
     - run: echo "The time was ${{ steps.helloDocker.outputs.time }}"
+
+    - name: Hello Composite action
+      id: helloComposite
+      uses: IObregon-plain/formationCompositeAction@main
+      with:
+        who-to-greet: ${{secrets.MYNAME}}
+    - run: echo random-number ${{ steps.helloComposite.outputs.random-number }}
+      shell: bash
