@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    environment: test
     strategy:
       matrix:
         node: [10,12,14]
