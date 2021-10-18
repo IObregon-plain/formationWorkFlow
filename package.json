@@ -1,0 +1,19 @@
+{
+  "name": "formationworkflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "run": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IObregon-plain/formationWorkFlow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IObregon-plain/formationWorkFlow/issues"
+  },
+  "homepage": "https://github.com/IObregon-plain/formationWorkFlow#readme"
+}
