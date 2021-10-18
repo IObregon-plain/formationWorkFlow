@@ -22,6 +22,6 @@ jobs:
         node-version: ${{ matrix.node}}
     - run: npm ci
     - run: npm test
-    - uses: IObregon-plain/formationJsAction@master
+    - uses: IObregon-plain/formationJsAction@main
       with:
         who-to-greet: 'iker'
