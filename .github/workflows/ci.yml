@@ -24,4 +24,4 @@ jobs:
     - run: npm test
     - uses: IObregon-plain/formationJsAction@main
       with:
-        who-to-greet: 'iker'
+        who-to-greet: ${{secrets.MYNAME}}
