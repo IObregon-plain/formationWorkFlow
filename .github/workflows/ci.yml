@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         node: [10,12,14]
-        so: [ubuntu-latest, windows-latest]
+        so: ['ubuntu-latest', 'windows-latest']
 
     runs-on: ${{ matrix.os}}
 
